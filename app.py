@@ -15,6 +15,6 @@ def About():
 def gohome():
     return render_template('index.html')
 
-@app.route('/')
+@app.route('/model')
 def model():
-    return render_template('Model.html')
+    return render_template('model.html')

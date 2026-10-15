@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <back><button><a href="/" class="goback">Go Home</a></button></back>
+
+    <h1 align='center'>Model</h1>
+    <h3>About this Model</h3>
+    <p>In this project, i have used a model named XGBoost which is one of the most used model for a industrial and heavy model training. Mainly for this project i have used classification version of xgboost because the data seems to let you use classification model. There is a option to use regressor model + classification model and this combination is pretty powerful.</p>
+
+    <h3>What my model_training.py do? </h3>
+    <p> In model training, it is better to first clean up the data. That's were i have created cleaning() function which help to find is there any missig value inside the features(columns) of the data. After finishing cleaning project, i created a new function name heart_attack() which just simply from the smoking, drinking and weight it find the heart attack rate of chance. Third function created is a model() which is the main model training function. I just fit x and y where x is a weight, smoking, alcohol intake and y is a rate of heart attack which taken from heart_attack() function. Then fitting and training is done. </P>
+
+    <h3>Code Output</h3>
+    </p>The code output is available to see on static/model_training_output.png</p>
+    
+    <img src='/static/model_training_output.png' alt="The output image for the model_training.py">
+
+  </body>
+</html>
