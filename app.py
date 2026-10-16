@@ -18,3 +18,7 @@ def gohome():
 @app.route('/model')
 def model():
     return render_template('model.html')
+
+@app.route('/docs')
+def docs():
+    return render_template("docs.html")
