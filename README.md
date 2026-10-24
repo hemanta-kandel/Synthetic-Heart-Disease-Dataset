@@ -46,5 +46,5 @@ It is not my first data science / machine learning project. But it is my first d
 
 NOTE: You can find how to clone and use this project & DOCS in deployed website. 
 
-The app is live: https://synthetic-heart-disease-dataset.onrender.com/
+The app is live: https://synthetic-heart-disease-dataset.vercel.app 
 
