@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from model_training import disease_chance
 
 app = Flask(__name__)
 
@@ -8,12 +7,8 @@ def home():
     return render_template('index.html')
 
 @app.route('/about')
-def About():
+def about():
     return render_template('About.html')
-
-@app.route('/')
-def gohome():
-    return render_template('index.html')
 
 @app.route('/model')
 def model():
@@ -21,4 +16,4 @@ def model():
 
 @app.route('/docs')
 def docs():
-    return render_template("docs.html")
+    return render_template('docs.html')
