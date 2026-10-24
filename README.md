@@ -39,6 +39,11 @@ Project structure
 	|-- model_training.py 
 
 ```
+
+Journey
+
+It is not my first data science / machine learning project. But it is my first data science project which uses xgboost, flask, HTML & CSS etc. I have done most ml projects with streamlit because of easy to use, faster development and only python. I only did not focuses on python development but also i am learning Robotics & Mechatronics because of it focuses on building the smart prototype instead of old prototype. This is my first step on computer science. 
+
 NOTE: You can find how to clone and use this project & DOCS in deployed website. 
 
 The app is live: https://synthetic-heart-disease-dataset.onrender.com/
