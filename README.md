@@ -11,14 +11,15 @@ Technologies used
 
 Pros of this project:
 
-     This project uses the tool and techniques used by the real machine learning engineer but in a small level. I have removed the NAN values from the data so that the model can train and predict more better. This is completely written by Human wich take 8+ hour of work. This project learn me to debug & write a clean & workable code without any unusual feature implementation. 
+This project uses the tool and techniques used by the real machine learning engineer but in a small level. I have removed the NAN values from the data so that the model can train and predict more better. This is completely written by Human wich take 8+ hour of work. This project learn me to debug & write a clean & workable code without any unusual feature implementation. 
 
 Cons of this project:
 
-     This is completely written by human so hidden bugs and logical error (Rarely) can be found. It take time than required, the main reason is because of being beginner. When seeing this project the site look static & not beautiful, this mainly fouses on working and training with model and dataset. The dataset is not taken from real life that model will lack real world data processing.
+This is completely written by human so hidden bugs and logical error (Rarely) can be found. It take time than required, the main reason is because of being beginner. When seeing this project the site look static & not beautiful, this mainly fouses on working and training with model and dataset. The dataset is not taken from real life that model will lack real world data processing.
 
-'''bash
+```bash
 Project structure
+
 	Synthetic-Heart-Disease-Dataset
 	|-- Templates
 	|   |-- index.html
@@ -37,8 +38,7 @@ Project structure
 	|-- .wakatime-project -> For hackatime time
 	|-- model_training.py 
 
-'''
-
+```
 NOTE: You can find how to clone and use this project & DOCS in deployed website. 
 
 The app is live: https://synthetic-heart-disease-dataset.onrender.com/
